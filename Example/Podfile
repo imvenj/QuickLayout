@@ -8,7 +8,7 @@ def testing_pods
 end
 
 target 'QuickLayoutiOSDemo' do
-	platform :ios, '9.0'
+	platform :ios, '8.0'
 	target 'QuickLayoutiOSTests' do
 	    inherit! :search_paths	
 		testing_pods
@@ -16,7 +16,7 @@ target 'QuickLayoutiOSDemo' do
 end
 
 target 'QuickLayoutTvOSDemo' do
-	platform :tvos, '9.0'
+	platform :tvos, '8.0'
 	target 'QuickLayoutTvOSTests' do
 	    inherit! :search_paths	
 		testing_pods
